@@ -6,3 +6,9 @@ from utility import multiply, divide
 from shopping.more_shopping import shopping_cart
 
 print (shopping_cart.buy("apple"))
+
+
+#  Il file che viene eseguito ha la proprietà 
+# __name__ == '__main__'
+if __name__ == '__main__':
+  print ('This is main file')
