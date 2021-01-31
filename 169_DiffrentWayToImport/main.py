@@ -2,7 +2,7 @@
 
 from utility import multiply, divide
 
-# Con il from posso importare solo la funzone che mi serve
-from shopping.more_shopping.shopping_cart import buy
+# Con il from posso importare anche un package
+from shopping.more_shopping import shopping_cart
 
-print (buy("apple"))
+print (shopping_cart.buy("apple"))
